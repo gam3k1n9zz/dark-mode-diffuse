@@ -20,7 +20,7 @@
  */
 function toggleTheme(event) {
   const willDark = !isDark();
-  // 浏览器新特性不支持 或者 开启了动画减弱
+  // 浏览器新特性不支持 或者 开启了动画减弱11
   if (!document.startViewTransition || isReducedMotion()) {
     toggleDark();
     return;
